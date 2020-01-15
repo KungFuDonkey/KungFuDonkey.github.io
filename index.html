@@ -3,5 +3,39 @@
 <html>
     <head>
         <title>LaKaMoSi studios</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <link rel="stylesheet" type="text/css" href="css.css">
     </head>
+    <script>
+        function changePage(page){
+            if(page == 0){
+                $("#content").load("about.html");
+            }
+            else{
+                $("#content").load("theGame.html");
+            }
+        }
+    </script>
+    <body>
+        <div class="container">
+            <div class="menu">
+                <div class="menuButton" onclick="changePage(1)">
+                    <div class="center">
+                        Game
+                    </div>
+                </div>
+                <div class="menuButton" onclick="changePage(0)">
+                    <div class="center">
+                        About
+                    </div>
+                </div>
+            </div>
+            <div id="content">
+                
+            </div>
+        </div>
+    </body>
+    <script>
+        changePage(0);
+    </script>
 </html>
