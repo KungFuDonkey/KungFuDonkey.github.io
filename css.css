@@ -3,19 +3,19 @@ body{
 }
 .container{
     width: 1600px;
-    height: 900px;
+    height: 1280px;
     margin-left: auto;
     margin-right: auto;
     
 }
 .footer{
     position: relative;
-    bottom: 0px;
+    bottom: 1px;
+    margin-left: auto;
+    margin-right: auto;
     width: 1600px;
     height: 16px;
     text-align: center;
-    margin-left: auto;
-    margin-right: auto;
     
 }
 .menu{
