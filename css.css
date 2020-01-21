@@ -54,3 +54,10 @@ body{
 .copyright{
     margin: auto;
 }
+.picture{
+    position: relative;
+    top: 12px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
